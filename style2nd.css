@@ -1,0 +1,189 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: poppins;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.boxs{
+    background:linear-gradient(to  right ,#1fa2ff,#a6ffcb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.remove .box{
+    display: none;
+}
+#singup{
+   color: white;
+}
+.heading{
+    margin-bottom: 30px;
+    height: 20%;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.submitinfo{
+   
+    display: none;
+    background:linear-gradient(to  right ,#1fa2ff,#a6ffcb);
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.remove .submitinfo{
+    display: block;
+}
+.box_text{
+    padding: 10px;
+    margin: 0 auto;
+ background-color: white;
+ background-image: url(request-will-be-processed-concept-260nw-2105720765.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size:auto;
+    width: 50%;
+    height: 80%;
+    margin-top: 50px;
+    text-align: center;
+}
+.box{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/101/97/196/earth-space-art-planet-sunlight-wallpaper-thumb.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #cdcab9;
+    width: 400px;
+    height: 500px;
+    box-shadow: 10px 0px 100px black;  /* shabow of the box*/
+}
+.box img{
+    margin-right: 7px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+.final_info{
+    margin: 40px ;
+}
+/*#singup{
+    margin-bottom: 0px;
+}*/
+
+.texts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 10px 5px 10px 5px;
+    border-radius: 25px;
+    width: 90%;
+    height: 50px;
+    background-color: white;
+}
+#inputs{
+    border: none;
+    outline: none;
+    font-size: medium;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#logo{
+    margin-left: 10px;
+}
+#btn{
+    cursor: pointer;
+    font-weight:bold ;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding:10px 20px 10px 20px;
+}
+#btn:hover{
+    background-color: rgb(55, 54, 54);
+    color: white;
+}
+.which_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    margin-right: 180px;
+    color:white;
+    margin-bottom: 20px;
+}
+@media (max-width:800px) {
+    .box_text{
+      
+        width: 70%;
+        height: 80%;
+    }
+}
+@media (max-width:500px) {
+    .box{
+   
+        width: 300px;
+        height: 500px;
+    }
+    .box img{
+       
+        width: 60px;
+        height: 60px;
+    }
+    #singup{
+        font-size: x-large;
+    }
+    .box_text{
+      
+        width: 400px;
+       
+    }
+}
+@media (max-width:420px) {
+    .box_text{
+      
+        width: 300px;
+        height: 80%;
+    }
+}
+@media (max-width:350px) {
+    .box{
+   
+        width: 250px;
+        height: 400px;
+    }
+    .box img{
+      
+        width: 50px;
+        height: 50px;
+    }
+    #singup{
+        font-size: large;
+    }
+    .box_text{
+      
+        width: 80%;
+        height: 80%;
+    }
+    .info{
+        margin-right: 100px;
+       
+    }
+}

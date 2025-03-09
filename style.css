@@ -1,0 +1,160 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: poppins;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 15%;
+}
+.header1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    background: linear-gradient(to bottom  ,black,#283048);
+}
+.header1 img{
+    margin-right: 10px;
+    border-radius: 50%;
+   height: 100px;
+   width: 100px;
+}
+.icon{
+    display: flex;
+   align-items: center;
+    justify-content: center;
+}
+.text{
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.text:hover{
+    border: 2px solid white;
+    font-weight: bolder;
+    background-color: #283048;
+    color: white;
+}
+.header2{
+    width: 100%;
+    height: 15%;
+   
+}
+.page1{
+    width: 100%;
+    height: 85%;
+    background: linear-gradient(to bottom  ,#283048,white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box img{
+    margin: 20px 0px;
+    width:80% ;
+    height:auto;
+}
+.box{
+   /* border-top: 1px solid black;*/
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    height: 80%;
+}
+.box p{
+    border-bottom: 2px solid black;
+}
+.info{
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px ;
+    border: 2px solid black;
+    margin:20px 0 ;
+}
+.info:hover{
+    color: white;
+    background-color: rgb(66, 138, 66);
+    border: 2px solid black;
+    font-weight: bolder;
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.options a{
+   color: black;
+   text-decoration-line: none;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    height: 15%;
+}
+.footer{
+    margin-top: 110px;
+}
+.icon{
+    font-size: x-large;
+}
+.icon1{
+    color: black;
+    text-decoration-line: none;
+    margin: 10px 20px;
+}
+.icon1:hover{
+    color: blue;
+}
+.loding{
+   color: blue;
+}
+.complete .loding{
+    opacity: 0;
+}
+@media (max-width:600px) {
+    .box{
+        width: 80%;
+    height: 60%;
+    }
+    .box img{
+        width:90% ;
+        height:auto;
+    }
+}
+@media (max-width:520px) {
+    .icon{
+       font-size: small;
+    }
+    .text{
+        
+      font-size: small;
+    }
+    .box{
+        width: 80%;
+    height: 60%;
+    }
+}
+@media (max-width:440px) {
+    .icon{
+       font-size: x-small;
+    }
+    .text{
+        
+      font-size: x-small;
+    }
+    .box img{
+        width:95% ;
+        height:auto;
+    }
+    .footer h2{
+        font-size: small;
+    }
+}
